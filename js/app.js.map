@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA","file":"app.js","sourcesContent":[""]}
+{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"app.js","sourcesContent":["const contactForm = document.querySelector('.contactForm');\n\nconst submitForm = function (e) {\n  e.preventDefault();\n  this.reset();\n};\n\ncontactForm.addEventListener('submit', submitForm);\n\n"]}

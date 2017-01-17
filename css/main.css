@@ -137,6 +137,9 @@ footer {
   background-image: url(../images/footer-background.png);
   background-size: cover; }
 
+.hidden {
+  display: none; }
+
 /**
  * Basic typography style for copy text
  */
